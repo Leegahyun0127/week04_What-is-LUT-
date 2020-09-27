@@ -56,5 +56,6 @@ As LUTs are so universal they are a better option when moving between software, 
 크리에이티브 LUT는 다른 소프트웨어에서도(예를 들면, 프리미어 프로와 다빈치 등에서) 늘 한결같이 LUT가 가진 하나의 룩look을 표현할 수 있게 해준다.
 
 ##### 3.Camera LUTs
-카메라 LUT의 좋은 예가 ARRI Alexa의 Rec709 LUT다.  이 LUT는 ARRI의 flat한 LOG-C에 적용하기 위해 디자인 되어 있다.  이런 종류의 LUT는 technical LUT와 creative LUT를 합친 결과물이라고 할 수 있다.  camera LUT는 왠지 수학적으로 정밀하게 만들어졌을 것만 같다.  그러니 해당 LUT를 사용할 때마다 정확하게 작동하리라 기대하게 된다.  그렇지만 사실은 그렇지 않다.바로 노출exposure 때문이다.
+ 카메라 LUT은 카메라 제조사에서 직접 만들어 제공하는 LUT이다. 카메라 LUT의 좋은 예가 ARRI Alexa의 Rec709 LUT다.이 LUT는 ARRI의 flat한 LOG-C에 적용하기 위해 디자인 되어 있다.  이런 종류의 LUT는 technical LUT와 creative LUT를 합친 결과물이라고 할 수 있다.  camera LUT는 왠지 수학적으로 정밀하게 만들어졌을 것만 같다.  그러니 해당 LUT를 사용할 때마다 정확하게 작동하리라 기대하게 된다.  그렇지만 사실은 그렇지 않다.바로 노출exposure 때문이다.
+
 (장면마다) 카메라의 센서에 도달하는 광량이 다르기 때문에 암부와 명부의 관계가 바뀐다.  그러면 해당 이미지에 적용한 LUT도 영향을 받는다. 결과적으로 camera lut는 creative 툴이고 (그레이딩을 하기 위한) 특정한 목표를 가지고 만들어졌다.  그러나 해당 카메라로 촬영한 모든 화면에 일괄적으로 적용할 수는 없다.
